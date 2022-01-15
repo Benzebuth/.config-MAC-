@@ -31,8 +31,8 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 "Start NERDTree and switch cursor"
-autocmd VimEnter * NERDTree | wincmd p
-let g:NERDTreeGitStatusUseNerdFonts = 1
+"autocmd VimEnter * NERDTree | wincmd p
+"let g:NERDTreeGitStatusUseNerdFonts = 1
 
 " -- custom down bar --
 let g:lightline = {
